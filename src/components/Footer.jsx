@@ -1,18 +1,16 @@
 import { FaLinkedin, FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
-// import leanerLogo from "../assets/leaner.png"; // <-- replace with your Leaner logo
+// import leanerLogo from "../assets/leaner.png"; 
 
 export default function Footer() {
   return (
     <footer className="bg-gray-50 text-gray-700 border-t py-10">
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8">
-        
-        {/* Logo & Copyright */}
+    
         <div className="col-span-2 md:col-span-1">
           {/* <img src={leanerLogo} alt="Leaner Logo" className="w-28 mb-3" /> */}
           <p className="text-sm text-gray-500">© 2025 Leaner, Inc.</p>
         </div>
 
-        {/* Company */}
         <div>
           <h3 className="font-semibold mb-3">Company</h3>
           <ul className="space-y-2 text-sm text-gray-600">
@@ -22,7 +20,6 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Resources */}
         <div>
           <h3 className="font-semibold mb-3">Resources</h3>
           <ul className="space-y-2 text-sm text-gray-600">
@@ -31,8 +28,6 @@ export default function Footer() {
             <li><a href="#" className="hover:underline">Guides</a></li>
           </ul>
         </div>
-
-        {/* Legal */}
         <div>
           <h3 className="font-semibold mb-3">Legal</h3>
           <ul className="space-y-2 text-sm text-gray-600">
@@ -42,7 +37,6 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Social */}
         <div>
           <h3 className="font-semibold mb-3">Follow Us</h3>
           <div className="flex space-x-4 text-xl text-gray-600">
@@ -54,7 +48,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom Bar */}
       <div className="max-w-6xl mx-auto mt-8 px-6 flex flex-col sm:flex-row items-center justify-between text-sm text-gray-500 border-t pt-4">
         <p>Built with ❤️ by the Leaner Team</p>
         <div className="flex space-x-3 mt-3 sm:mt-0">
