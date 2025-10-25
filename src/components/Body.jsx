@@ -42,7 +42,12 @@ const showCourse=props.course?.map((i,index)=>{
 
   
     <p className="text-green-600 text-lg font-bold mb-3">
-      {i.org_price}
+   <p>
+  {Math.round(Number(i.org_price.replace('$', '')) * 83)
+    .toLocaleString('en-IN', { style: 'currency', currency: 'INR' })}
+   </p>
+
+
     </p>
 
 

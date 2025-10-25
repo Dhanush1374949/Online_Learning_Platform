@@ -44,7 +44,7 @@ export const FilteredCourse = (props) => {
 
 
     <p className="text-green-600 text-lg font-bold mb-3">
-      {i.org_price}
+       {Math.round(Number(i.org_price.replace('$', '')) * 83).toLocaleString('en-IN', { style: 'currency', currency: 'INR' })}
     </p>
 
 
